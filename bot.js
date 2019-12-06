@@ -6,57 +6,28 @@ console.log("Scrpit By Dream");
 client.on("ready", () => {
 let channel =     client.channels.get("645274323258703883")
 setInterval(function() {
-channel.send(`1
-1
-1
-111
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-1
-11
-1
-1
-1
-1
-2
-
-2
-2
-3
-3
-
-4
-44
-4
-5
-5
-5
-6
-6
-67
-7
-8
-8
-9
-9
-
-090
-0
--
--
--
--
--
-#credits
-`);
+channel.send(`1`);
+channel.send(`2`);
+channel.send(`3`);
+channel.send(`4`);
+channel.send(`5`);
+channel.send(`6`);
+channel.send(`7`);
+channel.send(`8`);
+channel.send(`9`);
+channel.send(`0`);
+channel.send(`#daily`);
+channel.send(`#credits`);
+channel.send(`#mute @ahmedbedo#9458 `);
+channel.send(`#unmute @ahmedbedo#9458 `);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
+channel.send(``);
 }, 30)
 })
 
